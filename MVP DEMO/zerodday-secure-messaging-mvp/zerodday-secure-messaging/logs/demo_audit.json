@@ -1,0 +1,67 @@
+[
+  {
+    "timestamp": "2026-04-20T02:50:46.038638+00:00",
+    "event": "KEY_GENERATED",
+    "severity": "INFO",
+    "session_id": "N/A",
+    "key_id": "6d38b91e700b59ef",
+    "user": "alice"
+  },
+  {
+    "timestamp": "2026-04-20T02:50:46.038706+00:00",
+    "event": "KEY_GENERATED",
+    "severity": "INFO",
+    "session_id": "N/A",
+    "key_id": "523cd1c38afa3433",
+    "user": "bob"
+  },
+  {
+    "timestamp": "2026-04-20T02:50:46.038818+00:00",
+    "event": "KEY_REGISTERED",
+    "severity": "INFO",
+    "session_id": "N/A",
+    "user": "alice"
+  },
+  {
+    "timestamp": "2026-04-20T02:50:46.038836+00:00",
+    "event": "KEY_REGISTERED",
+    "severity": "INFO",
+    "session_id": "N/A",
+    "user": "bob"
+  },
+  {
+    "timestamp": "2026-04-20T02:50:46.266507+00:00",
+    "event": "HANDSHAKE_COMPLETED",
+    "severity": "INFO",
+    "session_id": "dfd6a7b556d59148975839d126cf9b16"
+  },
+  {
+    "timestamp": "2026-04-20T02:50:46.267148+00:00",
+    "event": "MSG_DECRYPTED",
+    "severity": "DEBUG",
+    "session_id": "dfd6a7b556d59148975839d126cf9b16",
+    "seq": 0
+  },
+  {
+    "timestamp": "2026-04-20T02:50:46.268808+00:00",
+    "event": "DOC_SIGNED",
+    "severity": "INFO",
+    "session_id": "N/A",
+    "user": "alice",
+    "doc_hash": "bde244fe9d656f5c"
+  },
+  {
+    "timestamp": "2026-04-20T02:50:46.268829+00:00",
+    "event": "DOC_TAMPERED",
+    "severity": "CRITICAL",
+    "session_id": "N/A",
+    "user": "eve",
+    "detail": "hash mismatch"
+  },
+  {
+    "timestamp": "2026-04-20T02:50:46.269121+00:00",
+    "event": "SESSION_CLOSED",
+    "severity": "INFO",
+    "session_id": "dfd6a7b556d59148975839d126cf9b16"
+  }
+]
